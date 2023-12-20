@@ -5,47 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A brief description">
-    <meta name="author" content="Your site name">
+    <meta name="description" content="Digital Business Card for Andrew Storrow IT Professional">
+    <meta name="author" content="Andrew Storrow">
 
-    <title>Andrew Storrow - Web Developer</title>
+    <title>Andrew Storrow - Digital Business Card</title>
 
     <!-- Icons -->
-    <!-- <link rel="icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+    <link rel="icon" href="./images/MyFavicon.png">
 
     <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS stylesheets -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <!-- Website Name or Logo -->
-        <p>Header</p>
-        <img src="https://via.placeholder.com/300" alt="">
-    </header>
-    <nav>
-        <!-- Website navigation -->
-        <h3>Navigation</h3>
-    </nav>
-    <main>
-        <!-- Main content -->
-        <h1>Heading</h1>
-    </main>
-    <footer>
-        <!-- Copyright notice and other footer content -->
-        <p>Footer</p>
-    </footer>
-
-    <!-- JavaScript files -->
-    <script src="./script.js"></script>
+    <div class="container">
+        <header>
+            <img src="./images/myface.png" alt="Andrew Storrow Portrait" class="profile-img">
+        </header>
+        <main>
+            <h1 class="name">Andrew Storrow</h1>
+            <h3 class="title">IT Professional</h3>
+            <h4 class="location">Austin, TX</h4>
+            <div class="buttons">
+                <a class="btn white" href="./Resume-Andrew-Storrow.pdf" target="_blank">
+                    <i class="fa-solid fa-file"></i>
+                    Resume
+                </a>
+                <a class="btn blue" href="https://www.linkedin.com/in/andrew-storrow/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+            <h2 class="header">About</h2>
+            <p>Hi, I'm Andrew and I'm a customer service oriented professional with 7 years of experience. I've recently
+                obtained CompTIA A+ certification and am seeking to transition into a career in Information Technology
+                after working in and around computers my whole life. I'm excited to begin my journey in IT am currently
+                looking for new opportunities as an IT Support Specialist, Desktop Support Specialist, Help Desk
+                Technician, IT Field Technician, or Field Service Technician.</p>
+            <h2 class="header">Interests</h2>
+            <p>Music nerd. Guitar player. Metalhead. Outdoor enthusiast. Backyard explorer. Road trip lover. Podcast
+                devourer. Spiritual seeker. Animal friend.</p>
+        </main>
+    </div>
+    <footer>&copy; 2023 Andrew Storrow</footer>
 </body>
 
 </html>
